@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-#MLE,Least Square, GD, SGD#
+#MLE,Least Square, GD, SGD
 
 ##
 
