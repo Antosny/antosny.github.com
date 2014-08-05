@@ -2,8 +2,8 @@
 layout: post
 title: "MLE,LS,GD,SGD"
 description: ""
-category: Machine Learning
-tags: [Logistic Regression, SGD]
+category: 
+tags: []
 ---
 {% include JB/setup %}
 
