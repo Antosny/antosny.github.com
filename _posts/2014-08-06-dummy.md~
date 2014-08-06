@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Dummy Variable Trap"
+description: "Dummy "
+category: Machine Learning, Logistic Regression
+tags: []
+---
+{% include JB/setup %}
+
+#Dummy Variable Trap
+##
+
+###简单的解释
+
+为什么一个类别变量（n个值），dummy化之后就只需要取n-1个变量呢？简单的解释就是，这n-1个变量全0的时候可以表示另外一个变量，所以不需要n个变量。
+
+###wiki看来的
+
+假设一个变量是X=职业（工人，学生，无业），Y=工资，做线性回归。
+
+> C1 C2	C3	y
+> 
+>    1	0	0	12.4
+> 
+>1	  0	  0	  11.9
+
+>0 	1 	0	  8.3
+
+>0	 1 	0	 3.1
+
+>0 	0	 1	 5.4
+
+>0 	0 	1	 6.2
+
+
+那么我们的X矩阵就是
+>1 1 0 0
+>
+>1 1 0 0
+>
+>1 0 1 0
+
+>1 0 1 0
+>
+>1 0 0 1
+
+>1 0 0 1
+
+
+求解w，w有解析解 ![](http://latex.codecogs.com/gif.latex?w%20%3D%20%28X%5ETX%29%5E%7B-1%7DX%5ETy)
+
+但是XTX有逆的条件是它是可逆的（行列式不为0，秩=4）
+
+然后![](http://latex.codecogs.com/gif.latex?rank%28X%5ETX%29%20%3D%20rank%28X%29)
+
+矩阵的秩是最大的线性无关向量个数，在我们的矩阵中，很明显，234列之和等于第1列，所以矩阵的秩要小于等于3，这么一搞，XTX的秩就小于4，也就是它是不可逆的了，w也就求不出来了！
+
+怎么办呢？两个办法，1，去掉其中一个dummy变量，2，把第一列去掉了。
