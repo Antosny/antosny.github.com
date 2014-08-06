@@ -7,7 +7,6 @@ tags: [Logistic Regression, SGD]
 ---
 {% include JB/setup %}
 
-#MLE,Least Square, GD, SGD
 
 
 
