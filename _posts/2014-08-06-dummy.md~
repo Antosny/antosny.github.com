@@ -2,13 +2,12 @@
 layout: post
 title: "Dummy Variable Trap"
 description: "Dummy "
-category: Machine Learning, Logistic Regression
+category: Machine Learning
 tags: []
 ---
 {% include JB/setup %}
 
-#Dummy Variable Trap
-##
+
 
 ###简单的解释
 
