@@ -16,6 +16,12 @@ Simhash是一种LSH(Local sensitive hash)，也就是说如果两个hash前的�
 
 简单的说，就是首先对每个feature生成它们的hash值（01串）（hash函数没有特别的要求，均匀就可以），然后hash值为1的，将1变成weight，为0的，将0变成-weight，生成的这个feature的hashcode。最后把所有feature的hashcode相加，正值就是1，反之为0，就生成完毕了。
 
+###怎么用？
+
+这个不多说，生成出simhash之后，比较汉明距离就可以了，汉明距离在一定范围内的，可以认为是相同或者相似的向量。
+
 ###Simhash的原理（自己扯淡的）
+
+Google + 百度了一圈，综合了一下说一下自己的看法。
 
 
