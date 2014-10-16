@@ -26,7 +26,7 @@ tags: [Logistic Regression, SGD]
 
 ###GD 与 SGD 
 
-对于一个cost function：
+对于一个cost function：(test)
 ![](http://latex.codecogs.com/gif.latex?J%28%5Ctheta%29%20%3D%20%5Csum%20J%28%5Ctheta_i%29)
 
 i为第i个instance，GD就是更新的时候这么做：
