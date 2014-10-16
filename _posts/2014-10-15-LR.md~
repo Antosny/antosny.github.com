@@ -25,7 +25,7 @@ category: Machine Learning
 
 好了，现在来看一下使用MAP的LR。
 
-
+$$Log(P(Y\|X,w)*P(w))$$ = $$Log(P(Y\|X,w)) + Log(P(w))$$，其中第一项对应平时正常的目标函数，第二项就是神奇的regularization项。回顾一下L1L2norm，L1是最小化绝对值的和，L2是最小化平方的和。那么什么样的分布在取了Log之后，是绝对值与平方呢。就是$$e^x$$与$$e^{x^2}$$，加上一些与$$x$$无关的项，就变成了Laplacian与Gaussian啦。
 
 
 
