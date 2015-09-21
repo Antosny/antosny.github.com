@@ -106,19 +106,20 @@ function ScoreIt()
 	}
 
 	if (counta > 0) {
-		percenta = (totala / counta)
+		percenta = (totala / counta);
   		//percenta = Math.round(parseFloat(percenta) * 1000) / 1000;
   }
 	if (countb > 0) {
-		percentb = (totalb / countb)
+		percentb = (totalb / countb);
   		//percentb = Math.round(parseFloat(percentb) * 1000) / 1000;
 	}
 	if (countc > 0) {
-		percentc = (totalc / countc)
+		percentc = (totalc / countc);
   		//percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
 	}
 	var result = "";
-	result = "男性得分：" + percenta + "/7， 女性得分：" + percentb + "/7 \n";//，中性得分：" + percentc + "/100。");
+	result = "男性得分：" + percenta + "/7， 女性得分：" + percentb + "/7 \n";
+	//alert(result);;//，中性得分：" + percentc + "/100。");
 	if (percentb - percenta < -2){
 		result += "你是男性化的";
 	}else if (percentb - percenta < -1){
