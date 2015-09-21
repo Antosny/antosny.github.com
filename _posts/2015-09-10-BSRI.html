@@ -119,6 +119,13 @@ function ScoreIt()
 	}
 	var result = "";
 	result = "男性得分：" + percenta + "/7， 女性得分：" + percentb + "/7， 中性得分：" + percentc + "/7。";
+	var diff = percentb - percenta;
+	if (diff < -2){
+		result += "\n 你是男性化的";
+	}
+	if (diff > -2 && diff < -1){
+		result += "\n 你是偏男性化的";
+	}
 	alert(result);
 }
 
