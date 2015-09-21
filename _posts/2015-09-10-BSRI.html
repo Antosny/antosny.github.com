@@ -117,8 +117,9 @@ function ScoreIt()
 		percentc = ((totalc / countc) / 0.06)
   		percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
 	}
-	
-	alert("男性得分：" + percenta + "/100， 女性得分：" + percentb + "/100， 中性得分：" + percentc + "/100。");
+	var result = "";
+	result = "男性得分：" + percenta + "/100， 女性得分：" + percentb + "/100， 中性得分：" + percentc + "/100。";
+	alert(result);
 }
 
 //-->
