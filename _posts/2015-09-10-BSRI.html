@@ -118,7 +118,7 @@ function ScoreIt()
   		percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
 	}
 	
-	alert("You scored " + percenta + " out of 100 masculine points, " + percentb + " out of 100 feminine points, and " + percentc + " out of 100 androgynous (neutral) points.");
+	alert("男性得分：" + percenta + "/100， 女性得分：" + percentb + "/100， 中性得分：" + percentc + "/100。");
 
 }
 
@@ -128,11 +128,11 @@ function ScoreIt()
 </HEAD>
 <BODY onLoad="preparedata();">
 
-<H1>BEM SEX ROLE INVENTORY</H1>
+<H1>The BSRI Test</H1>
 
 <P>The Bem Sex Role Inventory was developed in 1971 by Dr. Sandra Lipsitz Bem. It characterizes your personality as masculine, feminine, androgynous, or undifferentiated. The BSRI is based on gender stereotypes, so what it's actually measuring is how well you fit into your traditional sex role. Thus, your score may say as much about how our cultural expectations have changed over the last 35 years as it does about your personality.</P>
 
-<H3>Rate yourself on each item, on a scale from 1 (never or almost never true) to 7 (almost always true), then press the button.</H3>
+<H3>对每一项进行评分，按照程度从 1 (从未) 到 7 (总是)打分，最后点击按钮提交看结果</H3>
 
 <P>
 
@@ -146,17 +146,17 @@ function ScoreIt()
 <td>
 <ol>
 <li>
-self reliant<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+自我信赖 self reliant<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A1' VALUE='1'></TD>
@@ -171,17 +171,17 @@ Always
 
 
 <li>
-yielding<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+顺从的 yielding<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B1' VALUE='1'></TD>
@@ -196,17 +196,17 @@ Always
 
 
 <li>
-helpful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+乐于助人 helpful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C1' VALUE='1'></TD>
@@ -221,17 +221,17 @@ Always
 
 
 <li>
-defends own beliefs<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+维护自己的信念 defends own beliefs<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A2' VALUE='1'></TD>
@@ -246,17 +246,17 @@ Always
 
 
 <li>
-cheerful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+令人愉快的 cheerful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B2' VALUE='1'></TD>
@@ -271,17 +271,17 @@ Always
 
 
 <li>
-moody<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+喜怒无常的 moody<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C2' VALUE='1'></TD>
@@ -296,17 +296,17 @@ Always
 
 
 <li>
-independent<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+独立 independent<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A3' VALUE='1'></TD>
@@ -321,17 +321,17 @@ Always
 
 
 <li>
-shy<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+害羞的 shy<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B3' VALUE='1'></TD>
@@ -346,17 +346,17 @@ Always
 
 
 <li>
-conscientious<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+认真负责的 conscientious<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C3' VALUE='1'></TD>
@@ -371,17 +371,17 @@ Always
 
 
 <li>
-athletic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+体格健壮的 athletic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A4' VALUE='1'></TD>
@@ -396,17 +396,17 @@ Always
 
 
 <li>
-affectionate<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+深情的 affectionate<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B4' VALUE='1'></TD>
@@ -421,17 +421,17 @@ Always
 
 
 <li>
-theatrical<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+夸张的 theatrical<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C4' VALUE='1'></TD>
@@ -446,17 +446,17 @@ Always
 
 
 <li>
-assertive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+坚决主张的 assertive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A5' VALUE='1'></TD>
@@ -471,17 +471,17 @@ Always
 
 
 <li>
-flatterable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+值得赞赏的 flatterable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B5' VALUE='1'></TD>
@@ -496,17 +496,17 @@ Always
 
 
 <li>
-happy<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+开心的 happy<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C5' VALUE='1'></TD>
@@ -521,17 +521,17 @@ Always
 
 
 <li>
-strong personality<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+个性强 strong personality<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A6' VALUE='1'></TD>
@@ -546,17 +546,17 @@ Always
 
 
 <li>
-loyal<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+忠诚的 loyal<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B6' VALUE='1'></TD>
@@ -571,17 +571,17 @@ Always
 
 
 <li>
-unpredictable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+不可捉摸的 unpredictable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C6' VALUE='1'></TD>
@@ -596,17 +596,17 @@ Always
 
 
 <li>
-forceful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+强有力的 forceful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A7' VALUE='1'></TD>
@@ -621,17 +621,17 @@ Always
 
 
 <li>
-feminine<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+女性化的 feminine<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B7' VALUE='1'></TD>
@@ -646,17 +646,17 @@ Always
 
 
 <li>
-reliable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+可信赖的 reliable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C7' VALUE='1'></TD>
@@ -671,17 +671,17 @@ Always
 
 
 <li>
-analytical<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+善于分析的 analytical<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A8' VALUE='1'></TD>
@@ -696,17 +696,17 @@ Always
 
 
 <li>
-sympathetic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+有同情心的 sympathetic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B8' VALUE='1'></TD>
@@ -721,17 +721,17 @@ Always
 
 
 <li>
-jealous<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+嫉妒的 jealous<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C8' VALUE='1'></TD>
@@ -746,17 +746,17 @@ Always
 
 
 <li>
-leadership ability<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+领导能力 leadership ability<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A9' VALUE='1'></TD>
@@ -771,17 +771,17 @@ Always
 
 
 <li>
-sensitive to other's needs<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+对他人的需求敏感 sensitive to other's needs<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B9' VALUE='1'></TD>
@@ -796,17 +796,17 @@ Always
 
 
 <li>
-truthful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+真实的 truthful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C9' VALUE='1'></TD>
@@ -821,17 +821,17 @@ Always
 
 
 <li>
-willing to take risks<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+愿意冒险 willing to take risks<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A10' VALUE='1'></TD>
@@ -846,17 +846,17 @@ Always
 
 
 <li>
-understanding<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+理解 understanding<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B10' VALUE='1'></TD>
@@ -871,17 +871,17 @@ Always
 
 
 <li>
-secretive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+神秘的 secretive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C10' VALUE='1'></TD>
@@ -896,17 +896,17 @@ Always
 
 
 <li>
-makes decisions easily<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+容易做决定 makes decisions easily<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A11' VALUE='1'></TD>
@@ -921,17 +921,17 @@ Always
 
 
 <li>
-compassionate<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+有怜悯心的 compassionate<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B11' VALUE='1'></TD>
@@ -946,17 +946,17 @@ Always
 
 
 <li>
-sincere<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+真诚的 sincere<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C11' VALUE='1'></TD>
@@ -971,17 +971,17 @@ Always
 
 
 <li>
-self-sufficient<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+自给自足 self-sufficient<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A12' VALUE='1'></TD>
@@ -996,17 +996,17 @@ Always
 
 
 <li>
-eager to soothe hurt feelings<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+渴望安慰受伤的灵魂 eager to soothe hurt feelings<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B12' VALUE='1'></TD>
@@ -1021,17 +1021,17 @@ Always
 
 
 <li>
-conceited<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+自负的 conceited<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C12' VALUE='1'></TD>
@@ -1046,17 +1046,17 @@ Always
 
 
 <li>
-dominant<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+统治的 dominant<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A13' VALUE='1'></TD>
@@ -1071,17 +1071,17 @@ Always
 
 
 <li>
-soft spoken<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+说话温和的 soft spoken<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B13' VALUE='1'></TD>
@@ -1096,17 +1096,17 @@ Always
 
 
 <li>
-likable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+可爱的 likable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C13' VALUE='1'></TD>
@@ -1121,17 +1121,17 @@ Always
 
 
 <li>
-masculine<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+男子气概的 masculine<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A14' VALUE='1'></TD>
@@ -1146,17 +1146,17 @@ Always
 
 
 <li>
-warm<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+温暖的 warm<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B14' VALUE='1'></TD>
@@ -1171,17 +1171,17 @@ Always
 
 
 <li>
-solemn<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+庄严的 solemn<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C14' VALUE='1'></TD>
@@ -1196,17 +1196,17 @@ Always
 
 
 <li>
-willing to take a stand<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+愿意表明立场 willing to take a stand<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A15' VALUE='1'></TD>
@@ -1221,17 +1221,17 @@ Always
 
 
 <li>
-tender<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+温柔的 tender<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B15' VALUE='1'></TD>
@@ -1246,17 +1246,17 @@ Always
 
 
 <li>
-friendly<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+友好的 friendly<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C15' VALUE='1'></TD>
@@ -1271,17 +1271,17 @@ Always
 
 
 <li>
-aggressive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+有侵略性的 aggressive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A16' VALUE='1'></TD>
@@ -1296,17 +1296,17 @@ Always
 
 
 <li>
-gullible<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+容易受骗的 gullible<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B16' VALUE='1'></TD>
@@ -1321,17 +1321,17 @@ Always
 
 
 <li>
-inefficient<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+效率低下 inefficient<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C16' VALUE='1'></TD>
@@ -1346,17 +1346,17 @@ Always
 
 
 <li>
-acts as a leader<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+像个领导 acts as a leader<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A17' VALUE='1'></TD>
@@ -1371,17 +1371,17 @@ Always
 
 
 <li>
-childlike<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+像个小孩 childlike<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B17' VALUE='1'></TD>
@@ -1396,17 +1396,17 @@ Always
 
 
 <li>
-adaptable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+适应性 adaptable<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C17' VALUE='1'></TD>
@@ -1421,17 +1421,17 @@ Always
 
 
 <li>
-individualistic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+个人主义的 individualistic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A18' VALUE='1'></TD>
@@ -1446,17 +1446,17 @@ Always
 
 
 <li>
-does not use harsh language<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+不出口伤人 does not use harsh language<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B18' VALUE='1'></TD>
@@ -1471,17 +1471,17 @@ Always
 
 
 <li>
-unsystematic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+不系统的 unsystematic<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C18' VALUE='1'></TD>
@@ -1496,17 +1496,17 @@ Always
 
 
 <li>
-competitive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+有竞争力的 competitive<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A19' VALUE='1'></TD>
@@ -1521,17 +1521,17 @@ Always
 
 
 <li>
-loves children<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+喜欢小孩子 loves children<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B19' VALUE='1'></TD>
@@ -1546,17 +1546,17 @@ Always
 
 
 <li>
-tactful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+得体的 tactful<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C19' VALUE='1'></TD>
@@ -1571,17 +1571,17 @@ Always
 
 
 <li>
-ambitious<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+雄心壮志的 ambitious<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='A20' VALUE='1'></TD>
@@ -1596,17 +1596,17 @@ Always
 
 
 <li>
-gentle<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+温文尔雅的 gentle<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='B20' VALUE='1'></TD>
@@ -1621,17 +1621,17 @@ Always
 
 
 <li>
-conventional<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
+传统的 conventional<BR><TABLE class="entry" BGCOLOR='#EEEEEE'>
 <TR><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Never
+从未
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Rarely
+很少
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=20% COLSPAN=3>
-Neutral
+中立
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Often
+经常
 </TD><TD ALIGN=CENTER VALIGN=BOTTOM WIDTH=15%>
-Always
+总是
 </TD>
 </TR><TR>
 <TD><INPUT TYPE=RADIO NAME='C20' VALUE='1'></TD>
@@ -1649,11 +1649,11 @@ Always
 </TR></TABLE>
 </CENTER>
 
-    <input type=submit onClick="ScoreIt();" value="What's My Score?">
+    <input type=submit onClick="ScoreIt();" value="查看我的得分">
     
 </form>
 
-<H5>Coded up in about a half an hour by <A HREF="http://garote.livejournal.com">this fellow</A></H5>
+<H5>Coded up in about a half an hour by <A HREF="http://garote.livejournal.com">this fellow, translate by @antosny</A></H5>
 
 </BODY>
 </HTML>
