@@ -1,0 +1,230 @@
+
+<html>
+    <head>
+        <title>The Gender Traits Test 2.0</title>
+    </head>
+    <body style="background:#000066;">    
+        <div style="width:650px;margin:auto;border:3px solid #000000; background: #FFFFFF; padding:20px;">
+        This page was taken largely from <a href="http://androgyne.0catch.com/gentest1.htm">The International Foundation for Androgynous Studies Inc</a>, based on a <a href="http://www.garysturt.free-online.co.uk/bem.htm">paper about Androgyny</a>.  The former site had a lame version that didn't have any Javascript to calculate things.  So I fixed it.<br/>
+<h2>GENDER TRAITS TEST [aka "the Bem Test"]</h2>
+<p>This is an online interactive magical calculating Gender Traits Test (aka Bem Test)!</p>
+<p>Disclaimer: This test purports to decide how masculine or feminine you are, based on the paper linked above.  The paper is interesting, as it took a bunch of people (male and female) and asked them which characteristics were preferred, and this is the result.  I am very wary of any assigning gender like this, but our society has decided that some characteristics are "masculine" and others are "feminine", and if we avoid assigning those to "male" and "female", this test may or may not be interesting, but hopefully won't be too harmful.</p>
+<p>This is a dual-purpose form!  If you feel so inclined, you can print out things and fill stuff out and use a calculator, OR you can just pick boxes and hit the magic button.  The people over at the <a href="http://androgyne.0catch.com/gentest1.htm">original test</a> evidently have a very limited definition of "interactive", which consists of choosing numbers from boxes.  Mine is more comprehensive, which means that this page will take the fantastically complex step of adding and subtracting numbers <i>for</i> you, and then, on top of that, choosing one of five labels, based on that final number!  I know, I know, I am a wizard of modern technology, but please don't let it frighten you.  It's not <i>entirely</i> witchcraft.</p>
+
+<!--
+<BLOCKQUOTE>
+<p><H4><FONT COLOR="blue">Answer the questions as to how<BR> 
+the term describes you best according to the following scale:<BR><BR>
+
+1 = Never or almost never true <BR>
+2 = Usually not true <BR>
+3 = Sometimes but infrequently true <BR>
+4 = Occasionally true <BR>
+5 = Often true <BR>
+6 = Usually true <BR>
+7 = Always or almost always true <BR></H4></FONT></P>
+</BLOCKQUOTE>
+-->
+
+<p>Answer the questions as to how the term describes you best according to the following scale:</p>
+
+<table style="width:100%" cols="50,50">
+<tbody><tr>
+<td><font color="blue"><b>1 = Never or almost never true</b></font></td>
+<td><font color="blue"><b>5 = Often true</b></font></td></tr>
+
+<tr>
+<td><font color="blue"><b>2 = Usually not true</b></font></td>
+<td><font color="blue"><b>6 = Usually true</b></font></td></tr>
+
+<tr>
+<td><font color="blue"><b>3 = Sometimes but infrequently true</b></font></td>
+<td><font color="blue"><b>7 = Always or almost always true</b></font></td></tr>
+<tr>
+<td colspan="2"><font color="blue"><b>4 = Occasionally true</b></font></td>
+</tr>
+</tbody></table><br>
+
+<form>
+<input type="reset" value="clear"> all selected numbers
+<table id="chartable" border="2" cellspacing="2" cellpadding="2" width="600">
+<tbody><tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Adaptable</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Affectionate</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Aggressive</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Conceited</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Compassionate </td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Assertive</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Conscientious</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Eager to soothe hurt feelings</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Defends own beliefs</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Conventional</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Gentle</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Dominant</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Jealous</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Loves children</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Forceful</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Moody</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Sensitive to the needs of others</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Has leadership abilities</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Reliable</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Sympathetic</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Independent</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Secretive</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Tender</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Strong Personality</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Tactful</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Understanding</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Willing to take a stand</td></tr>
+<tr>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Truthful</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Warm</td>
+<td><select maxlength="3"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option></select> Willing to take risks</td></tr></tbody></table>
+<br>
+
+</form>
+<br>
+
+<p>SCORING BELOW.  DON'T READ THIS UNTIL YOU'VE TAKEN THE TEST.  YOU'LL SPOIL IT.</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<!-- 
+[this is the altered, stretched image file]
+<CENTER><IMG SRC="rain5.jpg"></CENTER><BR>
+-->
+
+<p>Okay, filled in all the boxes?  If not, you're just hurting yourself.  Proceed if you like.</p>
+<form>
+    <p>How the scoring works (in case you want to do it yourself for some reason):</p>
+    <p>Total the second and third columns.  The first column is what might be called a dummy column in order to keep you from skewing the test while you're taking it.</p>
+
+<script type="text/javascript">
+    function calcScore() {
+        table = document.getElementById('chartable');
+        rows = table.tBodies[0].rows;
+        sumA = 0;
+        sumB = 0;
+        for(rnum=0;rnum < rows.length;rnum++) {
+            sumA = sumA + getCellVal(rows[rnum].cells[1]);
+            sumB = sumB + getCellVal(rows[rnum].cells[2]);
+        }
+        scoreDiff = sumA - sumB;
+
+        document.getElementById('scoreA').value = sumA;
+        document.getElementById('scoreB').value = sumB;
+        document.getElementById('scoreDiff').value = scoreDiff;
+
+        if(scoreDiff <= -20) { trait = "Masculine"; }
+        else if(scoreDiff <= -10) { trait = "Nearly Masculine"; }
+        else if(scoreDiff < 10) { trait = "Androgynous"; }
+        else if(scoreDiff < 20) { trait = "Nearly feminine"; }
+        else { trait = "Feminine"; }
+
+        document.getElementById('resultspane').innerHTML = "You are supposedly " + trait;
+    }
+
+    function getCellVal(cell) {
+        select = cell.getElementsByTagName('select');
+        select = select[0];
+        if(select.value == "") { return 0; }
+        else { return parseInt(select.value); }
+    }
+</script>
+<table><tbody>
+<tr><td align="right">
+<input type="button" value="Calculate" onclick="calcScore();"/>
+</td></tr><tr><td align="right">
+Total from the second column is Score A: <input id="scoreA" type="text" size="3"><br>
+</td></tr><tr><td align="right">
+Total from the third column is Score B: <input id="scoreB" type="text" size="3"><br>
+</td></tr><tr><td align="right">
+Subtract Score B from Score A for the Difference Score: <input id="scoreDiff" type="text" size="2"><br>
+</td></tr>
+<tr><td id="resultspane" align="right">
+</td></tr>
+</tbody></table><br>
+
+For instance,<br>
+if your A score is 90 and your B score is 70, it would be 90-70=+20 (positive 20);<br>
+if your A score is 70 and your B score is 90, it would be 70-90=-20 (negative 20).<br><br>
+
+<input type="reset" value="clear"> <b>all scoring input boxes</b>
+
+
+<h3>GENDER TRAITS SCORES</h3>
+
+<table>
+<tbody><tr><td width="150"><font color="blue"><b>Masculine</b></font></td><td><font color="blue"><b>-20 and under</b></font></td></tr>
+<tr><td><font color="blue"><b>Nearly Masculine</b></font></td><td><font color="blue"><b>-19 to -10</b></font></td></tr>
+<tr><td><font color="blue"><b>Androgynous</b></font></td><td><font color="blue"><b>-9 to +9</b></font></td></tr>
+<tr><td><font color="blue"><b>Nearly feminine</b></font></td><td><font color="blue"><b>+9 to +19</b></font></td></tr>
+<tr><td><font color="blue"><b>Feminine</b></font></td><td><font color="blue"><b>+20 and over</b></font></td></tr>
+</tbody></table><br></font></form></h4><font color="blue">
+</font></h4>
+
+<i>Notes form the original authors:</i>
+<div style="border:2px solid #000000;padding:10px;">
+    <p>For an article on this test's scoring schema, please visit <i>The Measurement of Psychological Androgyny</i> page at <a href="http://www.garysturt.free-online.co.uk/bem.htm">http://www.garysturt.free-online.co.uk/bem.htm</a>.</p>
+    <p>For background on this test's author, Sandra Lipsitz Bem, please see the biography at the <i>Sandra Ruth Lipsitz Bem (June 22, 1944 - present) by Nicolle Bettis</i> page at <a href="http://www.webster.edu/~woolflm/sandrabem.html">http://www.webster.edu/~woolflm/sandrabem.html</a>. </p>
+
+Credits: <br>
+Bem, S. L. "The measurement of psychological androgyny,"<br>
+&nbsp; &nbsp; Journal of Personality and Social Psychology, 1975,<br>
+&nbsp; &nbsp; Vol. 31, pp. 634-643. <br>
+Bem, Sandra Lipsitz. "Bem Sex-Role Inventory," Consulting<br>
+&nbsp; &nbsp; Psychologists Press, Inc., 1981.
+
+For another cross-gender questionnaire, <a href="http://androgyne.0catch.com/gentest2.htm">click here</a>.
+<p>How to Contact the original authors:<br> <b>The International Foundation for Androgynous Studies (Inc)</b><br>
+P.O. Box 1066, <br>Nedlands, Western Australia 6909
+
+<p>
+<a href="mailto:fhaynes@ecel.uwa.edu.au">fhaynes@ecel.uwa.edu.au</a>,
+<a href="mailto:t.mckenna@cowan.edu.au">t.mckenna@cowan.edu.au</a><br>
+</p>
+</div>
+<div style="text-align:center;margin:20px;">
+How to contact me, who added the magic:<br/>
+<a href="http://cincodenada.tumblr.com">Tumblr</a> | <a href="http://twitter.com/cincodenada">Twitter</a> | <a href="mailto:cincodenada@gmail.com">Email</a>
+</div>
+<center><a href="http://androgyne.0catch.com/#tests">Androgyne Online</a></center>
+<center>
+Input Boxes first added to the test on this page 12/27/01 by <a href="mailto:scfeldman@juno.com">Stephe Feldman</a>.<br> 
+Input Boxes made to do something on 3/2/11 by Joel Bradshaw (see above).<br/>
+Update 10/8/12 - Fixed inversion of final subtraction (thanks, Drew!)<br/>
+Last update: 10/8/12.
+</center>
+</div>
+        <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-327426-8");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>
