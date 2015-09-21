@@ -90,15 +90,15 @@ function ScoreIt()
 		if (thisinput.type == "radio") {
 			if (thisinput.checked) {
 				if (thisinput.name.substring(0,1) == 'A') {
-					totala = totala + parseInt(thisinput.value) - 1;
+					totala = totala + parseInt(thisinput.value) + 0.0;
 					counta++;
 				}
 				if (thisinput.name.substring(0,1) == 'B') {
-					totalb = totalb + parseInt(thisinput.value) - 1;
+					totalb = totalb + parseInt(thisinput.value) + 0.0;
 					countb++;
 				}
 				if (thisinput.name.substring(0,1) == 'C') {
-					totalc = totalc + parseInt(thisinput.value) - 1;
+					totalc = totalc + parseInt(thisinput.value) + 0.0;
 					countc++;
 				} 
 			}
@@ -106,20 +106,31 @@ function ScoreIt()
 	}
 
 	if (counta > 0) {
-		percenta = ((totala / counta) / 0.06)
-  		percenta = Math.round(parseFloat(percenta) * 1000) / 1000;
+		percenta = (totala / counta)
+  		//percenta = Math.round(parseFloat(percenta) * 1000) / 1000;
   }
 	if (countb > 0) {
-		percentb = ((totalb / countb) / 0.06)
-  		percentb = Math.round(parseFloat(percentb) * 1000) / 1000;
+		percentb = (totalb / countb)
+  		//percentb = Math.round(parseFloat(percentb) * 1000) / 1000;
 	}
 	if (countc > 0) {
-		percentc = ((totalc / countc) / 0.06)
-  		percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
+		percentc = (totalc / countc)
+  		//percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
 	}
-	
-	alert("男性得分：" + percenta + "/100， 女性得分：" + percentb + "/100， 中性得分：" + percentc + "/100。");
-
+	var result = "";
+	result = "男性得分：" + percenta + "/7， 女性得分：" + percentb + "/7 \n";//，中性得分：" + percentc + "/100。");
+	if (percentb - percenta < -2){
+		result += "你是男性化的";
+	}else if (percentb - percenta < -1){
+		result += "你是接近男性化的");
+	}else if (percentb - percenta < 1){
+		result += "你是双性化的";
+	}else if (percentb - percenta < 2){
+		result += "你是接近女性化的";
+	}else{
+		result += "你是女性化的";
+	}
+	alert(result);
 }
 
 //-->
