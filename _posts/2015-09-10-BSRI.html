@@ -106,19 +106,19 @@ function ScoreIt()
 	}
 
 	if (counta > 0) {
-		percenta = ((totala / counta) / 0.06)
+		percenta = ((totala / counta))
   		percenta = Math.round(parseFloat(percenta) * 1000) / 1000;
   }
 	if (countb > 0) {
-		percentb = ((totalb / countb) / 0.06)
+		percentb = ((totalb / countb))
   		percentb = Math.round(parseFloat(percentb) * 1000) / 1000;
 	}
 	if (countc > 0) {
-		percentc = ((totalc / countc) / 0.06)
+		percentc = ((totalc / countc))
   		percentc = Math.round(parseFloat(percentc) * 1000) / 1000;
 	}
 	var result = "";
-	result = "男性得分：" + percenta + "/100， 女性得分：" + percentb + "/100， 中性得分：" + percentc + "/100。";
+	result = "男性得分：" + percenta + "/7， 女性得分：" + percentb + "/7， 中性得分：" + percentc + "/7。";
 	alert(result);
 }
 
