@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What's Jekyll?
+title: Reblogging
 ---
 
-** Reblogging
+## Reblogging
 
 我又开始写东西啦
